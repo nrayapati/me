@@ -1,0 +1,200 @@
+# Page settings
+
+baseurl = "http://me.thoughtslive.com/"
+languageCode = "en-us"
+title = "Naresh Rayapati"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-86684907-3"
+disableRSS = true
+disableSitemap = false
+disable404 = true
+
+[params]
+    description = "Resume"
+    author = "Naresh"
+    styles = "styles-6.css"
+
+    [params.profile]
+        name = "Naresh Rayapati"
+        tagline = "Full Stack Engineer, Pragmatic Developer."
+        avatar = "Naresh.png"
+
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: me@thoughtslive.com"
+        title = "me@thoughtslive.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+1-225-627-3747"
+        title = "+1-CAL-NARESHR"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//thoughtslive.com"
+        title = "www.thoughtslive.com"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/nrayapati"
+        title = "github.com/nrayapati"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/nrayapati"
+        title = "linkedin.com/in/nrayapati"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/nrayapati"
+        title = "@nrayapati"
+
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Master of Computer Applications."
+        college = "Osmania University, India."
+        dates = "2002 - 2005"
+
+        [[params.education.list]]
+        degree = "Bachelor of Computer Applications."
+        college = "Nagarjuna University, India."
+        dates = "1999 - 2002"
+
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Telugu"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Exploring."
+
+        [[params.interests.list]]
+        interest = "Reading."
+
+        [[params.interests.list]]
+        interest = "Cricket."
+
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "**Detail-oriented IT professional with 10+ years of experience as a Software Engineer/Developer. Skilled at operating in a wide range of platforms. Excellent written and oral communication skills; capable of explaining complex software issues in easy-to-understand terms.**"
+
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer"
+        dates = "2013 - Present"
+        company = "Cerner Corporation, Missouri, USA."
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Sr Systems Analyst"
+        dates = "2011 - 2013"
+        company = "StarHub Ltd, Singapore."
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Programmer Analyst"
+        dates = "2010 - 2011"
+        company = "Accenture Ltd, Malaysia."
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Consultant"
+        dates = "2007 - 2010"
+        company = "HCL Technologies Ltd, India."
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "2005 - 2007"
+        company = "TechBiz Ltd, India."
+        details = ""
+
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**Open Source Projects**"
+
+        [[params.projects.list]]
+        title = "**Hubot Steps**"
+        url = "https://github.com/jenkinsci/hubot-steps-plugin"
+        tagline = "[Jenkins](https://jenkins.io/) Pipeline Steps for integration with the [Hubot Chat Bot](https://hubot.github.com/)."
+
+        [[params.projects.list]]
+        title = "**JIRA Steps**"
+        url = "https://github.com/jenkinsci/jira-steps-plugin"
+        tagline = "[Jenkins](https://jenkins.io/) Pipeline Steps for integration with the [JIRA | Project Management Tool](https://www.atlassian.com/software/jira)."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Java & Java EE."
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Microservices"
+        level = "81%"
+
+        [[params.skills.list]]
+        skill = "Database & NoSQL"
+        level = "82%"
+
+        [[params.skills.list]]
+        skill = "Big Data / Hadoop Ecosystem"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "CI/CD & Jenkins"
+        level = "86%"
+
+        [[params.skills.list]]
+        skill = "Web Technologies"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Machine Learning / AI"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "Cloud Platform"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Project Management"
+        level = "70%"
+
+    [params.footer]
+        copyright = "Naresh Rayapati - ThoughtsLive."
