@@ -5,9 +5,6 @@ languageCode = "en-us"
 title = "Naresh Rayapati"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-86684907-3"
-disableRSS = true
-disableSitemap = false
-disable404 = true
 
 [params]
     description = "Resume"
