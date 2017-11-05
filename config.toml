@@ -26,15 +26,9 @@ googleAnalytics = "UA-86684907-3"
         title = "me@thoughtslive.com"
 
         [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+1-225-627-3747"
-        title = "+1-CAL-NARESHR"
-
-        [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//thoughtslive.com"
+        url = "//www.thoughtslive.com"
         title = "www.thoughtslive.com"
 
         [[params.contact.list]]
